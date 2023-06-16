@@ -12,6 +12,7 @@ def trim_title(title: str):
     title = title.replace("Dr. Stone - New World", "Dr Stone New World")
     title = title.replace("Opus.COLORs", "Opus COLORs")
     title = title.replace("Ousama Ranking - Yuuki no Takarabako", "Ousama Ranking Yuuki no Takarabako")
+    title = title.replace("END", "")
     title = title.replace(" Isekai wa Smartphone to Tomo ni. 2", " Isekai wa Smartphone to Tomo ni 2")
     title = title.replace("Kimetsu no Yaiba - Katanakaji no Sato Hen", "Demon Slayer Kimetsu No Yaiba To the Swordsmith Village")
     title = title.replace("Kidou Senshi Gundam - Suisei no Majo", "Kidou Senshi Gundam Suisei no Majo")
