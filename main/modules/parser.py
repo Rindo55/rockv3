@@ -27,7 +27,7 @@ def multi_sub(title: str):
 def parse():
     a = feedparser.parse("https://siftrss.com/f/oyebWJBqN8")
     b = a["entries"]
-    b = b[1:13:2]
+    b = b[0:13:2]
     data = []    
 
     for i in b:
