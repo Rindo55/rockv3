@@ -1,6 +1,4 @@
 import asyncio
-from main.modules.schedule import update_schedule
-from main.modules.usschedule import update_schedulex
 from main.modules.utils import status_text
 from main import status
 from main.modules.db import get_animesdb, get_uploads, save_animedb
@@ -74,9 +72,6 @@ async def auto_parser():
 
         try:
             await status.edit(await status_text("Idle..."),reply_markup=button1)
-            await update_schedule()
-            await asyncio.sleep(6)
-            await update_schedulex()
         except:
             pass
 
